@@ -1,0 +1,16 @@
+{
+  "trailingComma": "es5",
+  "tabWidth": 2,
+  "semi": false,
+  "singleQuote": true,
+  "vue/max-attributes-per-line": [
+    2,
+    {
+      "singleline": 1,
+      "multiline": {
+        "max": 1,
+        "allowFirstLine": false
+      }
+    }
+  ]
+}
