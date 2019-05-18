@@ -35,9 +35,16 @@
       "plugin:vue/essential",
       "@vue/prettier"
     ],
-    "rules": {},
     "parserOptions": {
       "parser": "babel-eslint"
+    },
+    "rules": {
+      "vue/attribute-hyphenation": "warning",
+      "vue/html-closing-bracket-spacing": "warning",
+      "vue/html-end-tags": "warning",
+      "vue/html-indent": "warning",
+      "vue/max-attributes-per-line": "warning",
+      "vue/eqeqeq": "warning"
     }
   },
   "postcss": {
